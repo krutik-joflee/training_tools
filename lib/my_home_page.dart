@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:training_tools/Screens/form.dart';
+import 'package:training_tools/Screens/layouts_screen.dart';
 
 import 'Screens/appbar_screen.dart';
 
@@ -32,10 +34,31 @@ class MyHomePage extends StatelessWidget {
             ),
             const SizedBox(height: 10),
             MaterialButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const LayoutsScreen(),
+                    ));
+              },
               color: Colors.pink,
               child: const Text(
                 'Layouts',
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
+            const SizedBox(height: 10),
+            MaterialButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => FormScreen(),
+                    ));
+              },
+              color: Colors.green,
+              child: const Text(
+                'FORM',
                 style: TextStyle(color: Colors.white),
               ),
             ),
