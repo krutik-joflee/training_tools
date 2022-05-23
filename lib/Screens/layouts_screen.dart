@@ -36,6 +36,7 @@ class LayoutsScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: [
                     Text(
                       "Beautiful Roses!!",
@@ -51,6 +52,7 @@ class LayoutsScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(right: 16.0),
                 child: Row(
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: [Icon(Icons.star), Text('41')],
                 ),
               ),
@@ -62,12 +64,15 @@ class LayoutsScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Column(
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: [Icon(Icons.call), Text('CALL')],
                 ),
                 Column(
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: [Icon(Icons.near_me), Text("ROUTE")],
                 ),
                 Column(
+                  // ignore: prefer_const_literals_to_create_immutables
                   children: [Icon(Icons.share), Text("SHARE")],
                 ),
               ],

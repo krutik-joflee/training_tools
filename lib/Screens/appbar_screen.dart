@@ -1,5 +1,9 @@
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables, duplicate_ignore
+
 import 'package:flutter/material.dart';
+// ignore: unused_import
 import 'package:training_tools/Screens/layouts_screen.dart';
+// ignore: unused_import
 import 'package:training_tools/my_home_page.dart';
 
 class AppbarScreen extends StatefulWidget {

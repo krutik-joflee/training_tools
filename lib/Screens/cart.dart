@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class CartScreen extends StatefulWidget {
+  // ignore: prefer_const_constructors_in_immutables
   CartScreen({Key? key}) : super(key: key);
 
   @override
@@ -114,6 +115,7 @@ class _CartScreenState extends State<CartScreen> {
               children: [
                 Padding(
                   padding: const EdgeInsets.all(11.0),
+                  // ignore: avoid_unnecessary_containers
                   child: Container(
                     child: Container(
                       height: 100,
