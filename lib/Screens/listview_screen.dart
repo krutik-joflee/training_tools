@@ -1,6 +1,9 @@
+// ignore_for_file: prefer_const_constructors, duplicate_ignore
+
 import 'package:flutter/material.dart';
 import 'package:training_tools/Screens/listview_builder.dart';
 
+// ignore: camel_case_types
 class listviewscreen extends StatelessWidget {
   const listviewscreen({Key? key}) : super(key: key);
 

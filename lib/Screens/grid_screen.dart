@@ -1,6 +1,9 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
+// ignore: camel_case_types
 class gridscreen extends StatelessWidget {
   const gridscreen({Key? key}) : super(key: key);
 

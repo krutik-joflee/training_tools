@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors, non_constant_identifier_names
+// ignore_for_file: prefer_const_constructors, sort_child_properties_last, non_constant_identifier_names
 
 import 'package:flutter/material.dart';
 import 'package:training_tools/my_home_page.dart';
@@ -15,11 +15,11 @@ class ListViewseparated extends StatelessWidget {
         backgroundColor: Colors.purple,
       ),
       body: ListView.separated(
-        itemBuilder: (context, Position) {
+        itemBuilder: (context, position) {
           return Card(
             child: Padding(
               padding: const EdgeInsets.all(12.0),
-              child: Text("List Item $Position"),
+              child: Text("List Item $position"),
             ),
           );
         },
