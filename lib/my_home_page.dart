@@ -148,7 +148,10 @@ class MyHomePage extends StatelessWidget {
                 "Test 2 Networking",
                 style: TextStyle(color: Colors.white),
               ),
-            )
+            ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),

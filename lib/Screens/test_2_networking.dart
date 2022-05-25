@@ -1,7 +1,10 @@
+// ignore_for_file: camel_case_types, duplicate_ignore, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:training_tools/Screens/todos_model.dart';
 
+// ignore: camel_case_types
 class test2networking extends StatefulWidget {
   const test2networking({Key? key}) : super(key: key);
 
@@ -21,7 +24,7 @@ class _test2networkingState extends State<test2networking> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Networking"),
+          title: const Text("Networking"),
           centerTitle: true,
           backgroundColor: Colors.red[400],
         ),
@@ -32,7 +35,7 @@ class _test2networkingState extends State<test2networking> {
                   AsyncSnapshot<List<UserModel>> snapshot) {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return Center(
-                    child: CircularProgressIndicator(),
+                    child: const CircularProgressIndicator(),
                   );
                 } else {
                   return ListView.builder(
